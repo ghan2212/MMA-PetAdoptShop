@@ -17,7 +17,15 @@ import {
 import { db } from "../../config/FirebaseConfig";
 import Colors from "../../constants/Colors";
 
-const CATEGORIES = ["Dog", "Cat", "Bird", "Fish", "Rabbit", "Hamster", "Other"];
+const CATEGORIES = [
+  "Dogs",
+  "Cat",
+  "Bird",
+  "Fish",
+  "Rabbit",
+  "Hamster",
+  "Other",
+];
 const GENDERS = ["Male", "Female"];
 
 export default function AddNewPet() {
